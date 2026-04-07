@@ -23,7 +23,7 @@
         symbol_layer: symbol_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "SYMBOL_LAYER";
-            bindings = <&lt>, <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -81,11 +81,11 @@
         symbol_layer {
             display-name = "symbol_layer";
             bindings = <
-&none            &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI         &kp COMMA     &tog 1                                                              &mo 3      &kp N6     &kp N7                &kp N8            &kp N9             &kp N0                 &kp MINUS
-&kp EXCLAMATION  &kp LEFT_BRACE  &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp RIGHT_BRACE  &kp QUESTION  &none                                                               &none      &kp Y      &kp TAB               &kp LS(TAB)       &kp O              &kp P                  &kp BSLH
-&kp HASH         &kp CARET       &kp EQUAL             &kp UNDER              &kp DOLLAR       &kp ASTERISK  &none          &kp PERIOD  &kp ASTERISK       &kp LGUI   &kp LGUI   &none      &kp H      &kp RIGHT_SHIFT       &kp RCTRL         &kp RIGHT_ALT      &kp RIGHT_GUI          &kp ESCAPE
-&kp TILDE        &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GT           &kp SLASH                                &kp SEMICOLON      &kp PG_UP                        &kp ENTER  &kp SPACE             &kp BACKSPACE     &kp DEL            &kp FSLH               &kp RSHFT
-&kp AT           &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                       &kp BACKSLASH  &kp COLON   &kp PERCENT        &kp PG_DN  &kp ENTER  &kp SPACE             &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &mo 2
+&none            &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI         &kp COMMA     &tog 1                                                              &mo 3   &kp N6     &kp N7                &kp N8            &kp N9             &kp N0                 &kp MINUS
+&kp EXCLAMATION  &kp LEFT_BRACE  &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp RIGHT_BRACE  &kp QUESTION  &none                                                               &none   &kp Y      &kp TAB               &kp LS(TAB)       &kp O              &kp P                  &kp BSLH
+&kp HASH         &kp CARET       &kp EQUAL             &kp UNDER              &kp DOLLAR       &kp ASTERISK  &none          &kp PERIOD  &kp ASTERISK       &kp LGUI   &kp LGUI   &none   &kp H      &kp RIGHT_SHIFT       &kp RCTRL         &kp RIGHT_ALT      &kp RIGHT_GUI          &kp ESCAPE
+&kp TILDE        &kp LESS_THAN   &kp PIPE              &kp MINUS              &kp GT           &kp SLASH                                &kp SEMICOLON      &kp PG_UP                     &kp ENTER  &kp SPACE             &kp BACKSPACE     &kp DEL            &kp FSLH               &kp RSHFT
+&kp AT           &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                       &kp BACKSLASH  &kp COLON   &kp PERCENT        &kp PG_DN  &kp ENTER  &trans             &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &mo 2
             >;
         };
 
